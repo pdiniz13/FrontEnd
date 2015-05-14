@@ -1,0 +1,28 @@
+body {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.wrapper {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.rDoor, .lDoor{
+  height: 387px;
+  width: 300px;
+  background: #000000 url("gate.jpg");
+}
+
+.lDoor {
+  float: left;
+}
+
+.rDoor {
+  float: right;
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
