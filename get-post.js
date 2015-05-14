@@ -17,7 +17,7 @@
  * given that the request and any parameters associated with that request are encoded into the URL one can simply
  * re use that URL in order to reach that same page.
  */
-
+//The following examples assume that you would have access to the jQuery library.
 //This would be an example of a POST request in which user data is submitted.
 //This is the data being submitted to the server
 var obj = {
